@@ -1,9 +1,9 @@
-source 'https://rubygems.org'
-## ruby '2.3.1'
+source 'https://rubygems.org' 
+
+ruby '2.3.1'
 
 gem 'sinatra', '>= 1.4'
 gem 'rails', '~> 4.2'
-
 group :development, :test do
   gem 'cucumber', '2.0.0'
   gem 'cucumber-sinatra', '0.5.0'
